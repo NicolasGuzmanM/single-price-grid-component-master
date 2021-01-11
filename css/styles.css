@@ -1,0 +1,103 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: rgb(230, 239, 246);
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(214, 225, 234);
+    overflow: hidden;
+    width: 42em;
+}
+
+.top-container {
+    background-color: rgb(255, 255, 255);
+    padding: 3em;
+}
+
+.title {
+    color: rgb(60, 175, 172);
+    margin-bottom: 1em;
+}
+
+.sub-title {
+    color: rgb(192, 209, 107);
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.top-container-p {
+    color: rgb(183, 187, 198);
+    line-height: 1.5;
+}
+
+.bottom-container {
+    color: rgb(223, 255, 255);
+    display: flex;
+}
+
+.left-container {
+    background-color: rgb(43, 179, 177);
+    line-height: 2;
+    padding: 3em;
+    width: 50%;
+}
+
+.price {
+    align-items: center;
+    color: rgb(124, 228, 227);
+    display: flex;
+}
+
+.amount {
+    color: rgb(223, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 0.3em;
+}
+
+.price-info {
+    line-height: 0;
+    margin-bottom: 2.5em;
+}
+
+.btn {
+    background-color: rgb(191, 223, 50);
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px rgb(63, 169, 125);
+    font-weight: 700;
+    padding: 0.4em;
+    text-align: center;
+}
+
+.right-container {
+    background-color: rgb(74, 190, 189);
+    line-height: 1.5;
+    padding: 3em;
+    width: 50%;
+}
+
+.right-container-title {
+    margin-bottom: 1em;
+}
+
+.right-container-ul {
+    color: rgb(165, 243, 243);
+    font-size: 0.9rem;
+    list-style: none;
+}
